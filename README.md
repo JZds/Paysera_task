@@ -1,4 +1,5 @@
 # Paysera_task
+Application for counting commission fees of cash in/out actions.
 
 ## Ready application
 ```
