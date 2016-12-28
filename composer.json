@@ -1,0 +1,23 @@
+{
+    "name": "JZds/Paysera_task",
+    "description": "Paysera task",
+    "license": "MIT",
+    "keywords": ["Paysera_task"],
+    "authors": [
+        {
+            "name": "JZds",
+            "email": "name@domain.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JZds\\Paysera_task\\": "src/"
+        }
+    }
+}
