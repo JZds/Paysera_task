@@ -46,7 +46,7 @@ class Operation {
         } elseif ($diff > $data['amount']) {
             return $data['amount'];
         } else {
-            return $this->conversionBackFromEur($diff, $data['currency']);
+            return $diff;
         }
     }
 
